@@ -523,6 +523,29 @@ header {
   color: var(--secondary-text-color);
 }
 
+/*ОВЕРЛЭЙ НА ИКОНКАХ*/
+
+.overlay-container {
+  position: relative;
+}
+
+.portfolio-top-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  padding: 63px 24px;
+  height: 100%;
+
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+  background-color: rgba(33, 150, 243, 0.9);
+}
+
 /*ФУТЕР*/
 .footer {
   padding-top: 60px;
