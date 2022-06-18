@@ -92,6 +92,9 @@ header {
 }
 
 .nav-link {
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -111,6 +114,10 @@ header {
 
 .header-post,
 .header-tel {
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   display: flex;
   align-items: center;
 
@@ -370,6 +377,10 @@ header {
 }
 
 .team-soc-link {
+  transition-property: color background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -421,6 +432,10 @@ header {
 }
 
 .clients-link {
+  transition-property: color border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   display: flex;
   align-content: center;
   justify-content: center;
@@ -456,6 +471,10 @@ header {
 }
 
 .filter-btn {
+  transition-property: box-shadow background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   padding: 6px 22px;
 
   font-weight: 500;
@@ -493,6 +512,9 @@ header {
 
 .portfolio-link {
   display: block;
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-link:hover,
@@ -527,12 +549,17 @@ header {
 
 .overlay-container {
   position: relative;
+  overflow: hidden;
 }
 
 .portfolio-top-text {
   position: absolute;
   top: 0;
   left: 0;
+  transform: translateY(100%);
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   padding: 63px 24px;
   height: 100%;
@@ -544,6 +571,11 @@ header {
 
   color: #ffffff;
   background-color: rgba(33, 150, 243, 0.9);
+}
+
+.portfolio-link:hover .portfolio-top-text,
+.portfolio-link:focus .portfolio-top-text {
+  transform: translateY(0);
 }
 
 /*ФУТЕР*/
@@ -588,6 +620,10 @@ address {
 
 .footer-post,
 .footer-tel {
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   font-size: 14px;
   line-height: 1.72;
   letter-spacing: 0.03em;
@@ -640,6 +676,9 @@ address {
 }
 
 .footer-soc-link {
+  transition-property: color background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   align-items: center;
   justify-content: center;
