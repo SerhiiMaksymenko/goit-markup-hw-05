@@ -613,10 +613,11 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   padding: 63px 24px;
+  width: 100%;
   height: 100%;
 
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.56;
   letter-spacing: 0.03em;
 
   color: var(--accent-text-color);
