@@ -426,7 +426,7 @@ header {
 }
 
 .team-soc-link {
-  transition-property: color background-color;
+  transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -481,7 +481,7 @@ header {
 }
 
 .clients-link {
-  transition-property: color border;
+  transition-property: color, border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -520,7 +520,7 @@ header {
 }
 
 .filter-btn {
-  transition-property: box-shadow background-color;
+  transition-property: box-shadow, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -727,7 +727,7 @@ address {
 }
 
 .footer-soc-link {
-  transition-property: color background-color;
+  transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
@@ -754,7 +754,7 @@ address {
 /*МОДАЛКА*/
 
 .backdrop {
-  transition-property: opacity visibility;
+  transition-property: opacity, visibility;
   transition-duration: 450ms;
 
   position: fixed;
